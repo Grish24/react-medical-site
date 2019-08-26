@@ -2,8 +2,8 @@ import React from 'react'
 import HomePage from './HomePage/HomePage'
 import {Route,Switch} from 'react-router-dom'
 // import Welcome from  './HomePage/HomeGroup/Welcome'
-import AboutUs from './HomePage/HomeGroup/AboutUs'
-import OurServices from './HomePage/HomeGroup/OurServices'
+import AboutUs from '../AboutUs'
+import OurServices from '../OurServices'
 
 const MainContent = () => {
     return (

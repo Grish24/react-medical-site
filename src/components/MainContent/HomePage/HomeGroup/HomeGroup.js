@@ -1,7 +1,7 @@
 import React from 'react'
 import Welcome from './Welcome'
-import AboutUs from './AboutUs'
-import OurServices from './OurServices'
+import AboutUsHome from './AboutUsHome'
+import OurServicesHome from './OurServicesHome'
 
 
 const HomeGroup = () => {
@@ -12,10 +12,10 @@ const HomeGroup = () => {
                     <Welcome/>
                 </div>
                 <div className="col-xl-5">
-                    <AboutUs/>
+                    <AboutUsHome/>
                 </div>
                 <div className="col-xl-2">
-                    <OurServices/>
+                    <OurServicesHome/>
                 </div>
             </div>
         </>
