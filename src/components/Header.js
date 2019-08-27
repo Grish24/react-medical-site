@@ -17,8 +17,8 @@ const Header = () => {
             </div>
             <div className="container-fluid bg-primary px-0">
                 <div className="container">
-                    <nav className="navbar navbar-expand-lg navbar-dark">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                    <nav className="navbar navbar-expand-lg navbar-dark px-0">
+                        {/*<a className="navbar-brand" href="#">Navbar</a>*/}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

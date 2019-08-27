@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-        <div className="container">
+        <div className="container py-5">
             <h3 className="text-uppercase">About Us!</h3>
             <p className="text-primary">
                 Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod.

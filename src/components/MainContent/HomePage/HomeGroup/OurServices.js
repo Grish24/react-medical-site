@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurServices = () => {
     return (
-        <div className="container">
+        <div className="container py-5">
             <h3 className="text-uppercase">OUR SERVICES</h3>
             <p className="mb-0">
                 <a href="">Lorem text dolor sit amet</a>
