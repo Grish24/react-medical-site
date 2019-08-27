@@ -9,11 +9,13 @@ const MainContent = () => {
     return (
         <>
             <section className="main-content">
-                <Switch>
-                    <Route path="/" component={HomePage} />
-                    <Route path="/About" component={AboutUs} />
-                    <Route path="/Services" component={OurServices} />
-                </Switch>
+                <div className="container-fluid">
+                    <Switch>
+                        <Route path="/" component={HomePage} />
+                        <Route path="/About" component={AboutUs} />
+                        <Route path="/Services" component={OurServices} />
+                    </Switch>
+                </div>
             </section>
         </>
     )
