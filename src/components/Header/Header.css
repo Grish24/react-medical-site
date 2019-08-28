@@ -1,0 +1,22 @@
+.bg-blue {
+  background: #007DAD;
+}
+.custom-links li {
+  border-left: 1px ridge #1087B4;
+}
+.custom-links li:nth-child(1) {
+  border: none;
+}
+.custom-links li a {
+  color: white !important;
+  padding: 16px 32px !important;
+  line-height: 1.15;
+}
+.custom-links li a.active {
+  color: white;
+  background: rgba(31, 31, 31, 0.99);
+}
+.custom-links li a:hover {
+  color: white !important;
+  background: rgba(31, 31, 31, 0.99);
+}
