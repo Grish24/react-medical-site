@@ -6,7 +6,7 @@ const AboutUsHome = () => {
             <h3 className="text-uppercase">About Us</h3>
 
 
-            <a href="">Read More</a>
+            <a href="/">Read More</a>
         </div>
     )
 };

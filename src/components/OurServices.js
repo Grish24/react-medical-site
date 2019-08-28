@@ -11,7 +11,7 @@ const OurServices = () => {
                         <h4 className="align-self-start mt-4 ml-3">24X7 SERVICES</h4>
                     </div>
                     <p className="text-muted"><small>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</small></p>
-                    <a className="text-uppercase" href="">Read more</a>
+                    <a className="text-uppercase" href="/">Read more</a>
                 </div>
                 <div className="col-xl-4">
                     <div className="d-flex">
@@ -19,7 +19,7 @@ const OurServices = () => {
                         <h4 className="align-self-start mt-4 ml-3">24X7 SERVICES</h4>
                     </div>
                     <p className="text-muted"><small>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</small></p>
-                    <a className="text-uppercase" href="">Read more</a>
+                    <a className="text-uppercase" href="/">Read more</a>
                 </div>
                 <div className="col-xl-4">
                     <div className="d-flex">
@@ -27,7 +27,7 @@ const OurServices = () => {
                         <h4 className="align-self-start mt-4 ml-3">24X7 SERVICES</h4>
                     </div>
                     <p className="text-muted"><small>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</small></p>
-                    <a className="text-uppercase" href="">Read more</a>
+                    <a className="text-uppercase" href="/">Read more</a>
                 </div>
             </div>
         </div>

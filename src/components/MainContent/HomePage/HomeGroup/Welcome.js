@@ -15,7 +15,7 @@ const Welcome = () => {
                 dolor sit amet, consectetur adipisicing elit, sed in reprehenderit adipisicing elit, sed in reprehenderit in voluptate velit esse cillum
             </p>
 
-            <a href="">Read More</a>
+            <a href="/">Read More</a>
         </>
     )
 };

@@ -35,28 +35,28 @@ const AboutUs = () => {
                         varius mi. Morbi nunc odio, gida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac
                         sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros.</p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                     <p className="mb-0">
-                        <a href="">Lorem text dolor sit amet</a>
+                        <a href="/">Lorem text dolor sit amet</a>
                     </p>
                 </div>
             </div>

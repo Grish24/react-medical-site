@@ -8,7 +8,7 @@ const Contact = () => {
                     <h3>FIND US HERE</h3>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28620.55499514913!2d-80.087265!3d26.275636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91d46273e0c45%3A0xc9e497f3ae06e4dd!2sLighthouse%20Point%2C%20FL!5e0!3m2!1sen!2sus!4v1566842967802!5m2!1sen!2sus"
-                        width="100%" height="200" frameborder="0" allowfullscreen=""/>
+                        width="100%" height="200" frameborder="0" allowfullscreen="" title="map"/>
                     <h3 className="mt-5">COMPANY INFORMATION :</h3>
                     <address>
                         500 Lorem Ipsum Dolor Sit,<br/>
