@@ -11,10 +11,10 @@ const HomeGroup = () => {
                 <div className="col-xl-5">
                     <Welcome/>
                 </div>
-                <div className="col-xl-5">
+                <div className="col-xl-4">
                     <AboutUsHome/>
                 </div>
-                <div className="col-xl-2">
+                <div className="col-xl-3">
                     <OurServicesHome/>
                 </div>
             </div>

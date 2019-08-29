@@ -1,5 +1,5 @@
 import React from 'react'
-import Slider from '../Slider/Slider'
+import SliderComp from '../Slider/SliderComp'
 import HomeGroup from './HomeGroup/HomeGroup'
 
 
@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
         <>
         <div className="container-fluid">
-            <Slider/>
+            <SliderComp/>
         </div>
         <div className="container-fluid bg-light">
             <div className="container">
