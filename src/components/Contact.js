@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className="container py-5">
+        <div className="col-xl-9 mx-auto py-5">
             <div className="row">
                 <div className="col-xl-4">
                     <h3>FIND US HERE</h3>

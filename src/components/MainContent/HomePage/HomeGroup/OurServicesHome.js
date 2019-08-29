@@ -2,8 +2,8 @@ import React from 'react'
 
 const OurServices = () => {
     return (
-        <div className="container">
-            <h3 className="text-uppercase">OUR SERVICES</h3>
+        <div className="container services-links">
+            <h2 className="text-uppercase">OUR SERVICES</h2>
             <p className="mb-0">
                 <a href="/">Lorem text dolor sit amet</a>
             </p>
@@ -29,7 +29,8 @@ const OurServices = () => {
                 <a href="/">Lorem text dolor sit amet</a>
             </p>
 
-            <a href="/">Read More</a>
+            <button className="btn">Read More</button>
+
         </div>
     )
 };

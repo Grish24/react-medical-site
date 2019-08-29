@@ -10,7 +10,7 @@ const HomePage = () => {
             <SliderComp/>
         </div>
         <div className="container-fluid bg-light">
-            <div className="container">
+            <div className="col-xl-9 mx-auto">
                 <HomeGroup/>
             </div>
         </div>
