@@ -5,7 +5,7 @@ const Footer = () => {
         <>
         <footer>
             <div className="container-fluid">
-                <div className="container">
+                <div className="col-xl-9 mx-auto pt-32">
                     <div className="row">
                         <div className="col-xl-3 px-4">
                             <h5 className="text-uppercase text-white">OUR PROFILE</h5>

@@ -1,0 +1,31 @@
+.home-group p {
+  color: #007DAD;
+}
+.home-group p small {
+  color: #777;
+  font-size: 14px;
+}
+.home-group p a {
+  color: #007DAD;
+}
+.home-group button {
+  color: #FFF;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 15px;
+  background: #289cd8;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+.home-group button:hover {
+  background: rgba(31, 31, 31, 0.99);
+  color: #FFF;
+}
+.home-group .services-links p {
+  padding: 10px 0;
+  border-bottom: 1px dashed rgba(192, 192, 192, 0.33);
+}
+.home-group .services-links p a:hover {
+  color: #777;
+  text-decoration: none;
+}

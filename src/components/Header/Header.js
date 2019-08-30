@@ -6,7 +6,7 @@ const Header = () => {
         <>
         <header>
             <div className="container-fluid bg-light px-0">
-                <div className="container">
+                <div className="col-xl-9 mx-auto">
                     <div className="main-header d-flex py-4">
                         <a href="/">
                             <img className="img-fluid" width={60} src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt=""/>
@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="container-fluid bg-blue px-0">
-                <div className="container">
+                <div className="col-xl-9 mx-auto">
                     <nav className="navbar navbar-expand-lg navbar-dark px-0 py-0">
                         {/*<a className="navbar-brand" href="#">Navbar</a>*/}
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

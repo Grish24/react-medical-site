@@ -5,9 +5,9 @@ const AboutUs = () => {
         <div className="col-xl-9 mx-auto py-5">
             <div className="row">
                 <div className="col-xl-4">
-                    <div className="card border-0">
-                        <h3 className="card-title">Who We Are</h3>
-                        <img src="http://auxesialifesciences.com/images/slider2.jpg" className="card-img-top"
+                    <div className="card border-0 bg-transparent">
+                        <h3 className="card-title border-b-1 pb-3 mb-3">Who We Are</h3>
+                        <img src={require('../images/about1.jpg')} className="card-img-top"
                              alt="..."/>
                         <div className="card-body px-0">
                             <p className="card-text mb-1">LOREM IPM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT.
@@ -26,10 +26,10 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="col-xl-4">
-                    <h3>OUR HISTORY</h3>
+                    <h3 className="border-b-1 pb-3 mb-3">OUR HISTORY</h3>
                 </div>
                 <div className="col-xl-4">
-                    <h3>OUR SERVICES</h3>
+                    <h3 className="border-b-1 pb-3 mb-3">OUR SERVICES</h3>
                     <h6>LOREM IPM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. PRAESENT VESTIBULUM.</h6>
                     <p>Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit
                         varius mi. Morbi nunc odio, gida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac
