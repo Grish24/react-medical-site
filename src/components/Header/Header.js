@@ -11,9 +11,7 @@ class Header extends Component{
         });
     };
     handlerClick = () =>{
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
+        this.toggle()
     };
     render() {
         return (
