@@ -15,7 +15,8 @@ const HomeGroup = () => {
                     <AboutUsHome/>
                 </div>
                 <div className="col-xl-4">
-                    <OurServicesHome/>
+                    <OurServicesHome />
+
                 </div>
             </div>
         </>

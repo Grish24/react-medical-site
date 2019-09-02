@@ -21,11 +21,14 @@
   background: rgba(31, 31, 31, 0.99);
   color: #FFF;
 }
-.home-group .services-links p {
+.services-links p {
   padding: 10px 0;
   border-bottom: 1px dashed rgba(192, 192, 192, 0.33);
 }
-.home-group .services-links p a:hover {
+.services-links p a {
+  color: #007DAD;
+}
+.services-links p a:hover {
   color: #777;
   text-decoration: none;
 }

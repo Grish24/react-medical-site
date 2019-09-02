@@ -2,7 +2,7 @@ import React from 'react'
 import HomePage from './HomePage/HomePage'
 import {Route,Switch} from 'react-router-dom'
 import AboutUs from '../AboutUs'
-import OurServices from '../OurServices'
+import OurServices from '../Services'
 import Contact from '../Contact'
 import './MainContent.css'
 const MainContent = () => {

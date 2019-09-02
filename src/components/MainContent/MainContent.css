@@ -4,3 +4,19 @@
 .border-b-1 {
   border-bottom: 1px solid rgba(192, 192, 192, 0.18);
 }
+.custom-ul {
+  list-style: none;
+  padding-left: 0;
+}
+.custom-ul li {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.custom-ul li span:first-child {
+  white-space: nowrap;
+  margin-right: 24px;
+}
+.custom-ul li span:last-child {
+  color: #777;
+}
