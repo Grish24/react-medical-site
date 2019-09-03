@@ -6,7 +6,7 @@ import HomeGroup from './HomeGroup/HomeGroup'
 const HomePage = () => {
     return (
         <>
-        <div className="container-fluid">
+        <div className="container-fluid px-0">
             <SliderComp/>
         </div>
         <div className="container-fluid bg-light">

@@ -28,7 +28,7 @@ const SliderComp = () => {
                         style={{backgroundImage: `url('${item.image}')`, height: `100%`}}
                     >
                         <div className="inner main-carousel">
-                            <div className="col-xl-5 offset-xl-2 text-right pt-90">
+                            <div className="col-xl-5 col-lg-8 col-10 offset-xl-2 text-center text-sm-right align-self-center mx-auto">
                                 <h1 >{item.title}</h1>
                                 <p>{item.description}</p>
                                 <button className="btn rounded-0">{item.button}</button>

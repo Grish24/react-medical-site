@@ -8,13 +8,13 @@ const HomeGroup = () => {
     return (
         <>
             <div className="home-group row py-5 bg-light">
-                <div className="col-xl-4">
+                <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0">
                     <Welcome/>
                 </div>
-                <div className="col-xl-4">
+                <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0 px-xl-4">
                     <AboutUsHome/>
                 </div>
-                <div className="col-xl-4">
+                <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0">
                     <OurServicesHome />
 
                 </div>

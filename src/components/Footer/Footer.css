@@ -16,10 +16,15 @@ footer p a:hover {
   color: #007DAD;
   text-decoration: none;
 }
-footer .col-xl-3 {
+footer .col-lg-3 {
   border-left: 1px solid rgba(153, 153, 153, 0.13);
 }
-footer .col-xl-3:first-child {
+@media (max-width: 992px) {
+  footer .col-lg-3 {
+    border-left: 0;
+  }
+}
+footer .col-lg-3:first-child {
   border: 0;
 }
 footer .phone-number {

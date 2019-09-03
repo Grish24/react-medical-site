@@ -15,8 +15,11 @@ footer {
       }
     }
   }
-  .col-xl-3 {
+  .col-lg-3 {
     border-left: 1px solid rgba(153, 153, 153, 0.13);
+    @media(max-width: 992px){
+      border-left: 0;
+    }
     &:first-child{
       border: 0;
     }
