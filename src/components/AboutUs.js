@@ -4,7 +4,7 @@ const AboutUs = () => {
     return (
         <div className="col-xl-9 mx-auto py-5">
             <div className="row">
-                <div className="col-xl-4 px-4">
+                <div className="col-lg-4 col-sm-6 px-lg-4">
                     <div className="card border-0 bg-transparent">
                         <h3 className="card-title border-b-1 pb-3 mb-3">Who We Are</h3>
                         <img src={require('../images/about1.jpg')} className="card-img-top"
@@ -25,7 +25,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-4 px-4">
+                <div className="col-lg-4 col-sm-6 px-lg-4">
                     <h3 className="border-b-1 pb-3 mb-3">OUR HISTORY</h3>
                     <ul className="custom-ul">
                         <li>
@@ -42,7 +42,7 @@ const AboutUs = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="col-xl-4 services-links px-4">
+                <div className="col-lg-4 col-sm-6 services-links px-lg-4">
                     <h3 className="border-b-1 pb-3 mb-3">OUR SERVICES</h3>
                     <h6>LOREM IPM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. PRAESENT VESTIBULUM.</h6>
                     <p className="text-muted">

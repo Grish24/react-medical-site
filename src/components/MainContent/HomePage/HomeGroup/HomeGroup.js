@@ -16,7 +16,6 @@ const HomeGroup = () => {
                 </div>
                 <div className="col-xl-4 col-sm-6 mb-4 mb-xl-0">
                     <OurServicesHome />
-
                 </div>
             </div>
         </>

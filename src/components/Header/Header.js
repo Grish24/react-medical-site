@@ -6,10 +6,9 @@ class Header extends Component{
         isOpen : false,
     };
     toggle = () => {
-        this.setState({
-            isOpen: !this.state.isOpen
-        });
-    };
+        this.setState((prevState) => ({
+            isOpen: !prevState.isOpen
+    }))};
     handlerClick = () =>{
         this.toggle()
     };
@@ -44,7 +43,7 @@ class Header extends Component{
                             <button onClick={this.toggle} className="navbar-toggler ml-auto" type="button" >
                                 <span className="navbar-toggler-icon"></span>
                             </button>
-                            <div className={`collapse navbar-collapse py-3 py-sm-0 ${this.state.isOpen ? 'show' : null}`} id="navbarNav" >
+                            <div className={`collapse navbar-collapse py-3 py-sm-0 ${this.state.isOpen ? 'show' : ''}`} id="navbarNav" >
                                 <ul className="navbar-nav custom-links">
                                     <li className="nav-item mb-2 mb-sm-0">
                                         {
