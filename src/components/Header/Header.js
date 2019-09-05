@@ -47,7 +47,7 @@ class Header extends Component{
                                 <ul className="navbar-nav custom-links">
                                     <li className="nav-item mb-2 mb-sm-0">
                                         {
-                                            <NavLink className="nav-link text-uppercase " to="/home"  onClick={this.handlerClick}>
+                                            <NavLink exact className="nav-link text-uppercase " to="/"  onClick={this.handlerClick}>
                                                 Home
                                             </NavLink>
                                         }

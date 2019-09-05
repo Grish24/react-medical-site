@@ -10,19 +10,11 @@ const MainContent = () => {
         <>
             <section className="main-content">
                 <Switch>
-                    <Route path="/home" component={HomePage} />
+                    <Route exact path="/" component={HomePage} />
                     <Route path="/About" component={AboutUs} />
-                    <Route path="/Services">
-                        <div className="container-fluid bg-lightGray">
-                            <OurServices/>
-                        </div>
-                    </Route>
-                    <Route path="/Contact" >
-                        <div className="container-fluid bg-lightGray">
-                            <Contact/>
-                        </div>
-                    </Route>
-                    <Redirect to='/home'/>
+                    <Route path="/Services" component={OurServices} />
+                    <Route path="/Contact" component={Contact} />
+                    <Redirect to='/'/>
                 </Switch>
             </section>
         </>
