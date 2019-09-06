@@ -1,5 +1,5 @@
 import React from 'react'
-import './MainContent/MainContent.css'
+import '../components/MainContent/MainContent.css'
 const Contact = () => {
     return (
         <div className="container-fluid bg-lightGray">

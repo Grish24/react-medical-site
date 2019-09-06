@@ -1,6 +1,6 @@
 import React from 'react'
-import '../components/MainContent/HomePage/HomeGroup/HomeGroup.css'
-import slider1 from '../images/slider1.png'
+import '../components/HomeGroup/HomeGroup.css'
+import about1 from '../assets/images/about1.jpg'
 
 const AboutUs = () => {
     return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
                 <div className="col-lg-4 col-sm-6 px-lg-4">
                     <div className="card border-0 bg-transparent">
                         <h3 className="card-title border-b-1 pb-3 mb-3">Who We Are</h3>
-                        <img src={slider1} className="card-img-top"
+                        <img src={about1} className="card-img-top"
                              alt="..."/>
                         <div className="card-body px-0">
                             <p className="card-text mb-1">LOREM IPM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT.

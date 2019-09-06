@@ -2,18 +2,21 @@ import React from 'react'
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import './SliderComp.css'
+import slider1 from '../../assets/images/slider1.png'
+import slider2 from '../../assets/images/slider2.png'
+
 const content = [
     {
         title: "MEDICA THE BEST HOSPITAL WEBSITE ",
         description: "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.",
         button: "Read More",
-        image: require('../../../images/slider1.png'),
+        image: slider1,
     },
     {
         title: "MEDICA THE BEST HOSPITAL WEBSITE",
         description: "LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.",
         button: "Read More",
-        image: require('../../../images/slider2.png'),
+        image: slider2,
     },
 ];
 

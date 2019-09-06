@@ -1,6 +1,6 @@
 import React from 'react'
-import SliderComp from '../Slider/SliderComp'
-import HomeGroup from './HomeGroup/HomeGroup'
+import SliderComp from '../components/Slider/SliderComp'
+import HomeGroup from '../components/HomeGroup/HomeGroup'
 
 
 const HomePage = () => {
