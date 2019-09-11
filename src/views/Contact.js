@@ -1,5 +1,7 @@
 import React from 'react'
 import '../components/MainContent/MainContent.css'
+import Form from '../components/Form/Form'
+
 const Contact = () => {
     return (
         <div className="container-fluid bg-lightGray">
@@ -23,26 +25,7 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-8 col-sm-6">
                         <h4 className="border-b-1 pb-2 mb-3">CONTACT US</h4>
-                        <form>
-                            <div className="form-group">
-                                <label htmlFor="exampleFormControlInput1">NAME</label>
-                                <input type="email" className="form-control rounded-0" id="exampleFormControlInput1" placeholder="name@example.com"/>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="exampleFormControlInput1">NAME</label>
-                                <input type="email" className="form-control rounded-0" id="exampleFormControlInput1" placeholder="name@example.com"/>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="exampleFormControlInput1">NAME</label>
-                                <input type="email" className="form-control rounded-0" id="exampleFormControlInput1" placeholder="name@example.com"/>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
-                                <textarea className="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"/>
-                            </div>
-
-                            <button className="btn btn-primary rounded-0">Submit</button>
-                        </form>
+                        <Form/>
                     </div>
                 </div>
             </div>
