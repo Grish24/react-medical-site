@@ -30,16 +30,22 @@
   color: rgba(31, 31, 31, 0.99);
   font-size: 14px;
 }
-.main-slider .slider .slider-content .main-carousel button {
+.main-slider .slider .slider-content .main-carousel .btn {
   background: #289cd8;
   color: #FFF;
   padding: 15px 40px;
   font-size: 14px;
   text-transform: uppercase;
 }
-.main-slider .slider .slider-content .main-carousel button:hover {
+.main-slider .slider .slider-content .main-carousel .btn:hover {
   background: rgba(31, 31, 31, 0.99);
   color: #FFF;
+}
+.main-slider .slider .slider-content .main-carousel .btn a {
+  color: white;
+}
+.main-slider .slider .slider-content .main-carousel .btn a:hover {
+  text-decoration: none;
 }
 @media (max-width: 576px) {
   .main-slider .slider a.nextButton {
