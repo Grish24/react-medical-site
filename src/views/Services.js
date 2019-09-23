@@ -1,5 +1,5 @@
 import React from 'react'
-import ServicesComp from './ServicesComp'
+import ServicesContainer from '../components/Services/ServicesContainer'
 
 
 const Services = () => {
@@ -7,7 +7,7 @@ const Services = () => {
         <div className="container-fluid bg-lightGray">
             <div className="col-xl-9 mx-auto py-5">
                 <h3>OUR SERVICES</h3>
-                <ServicesComp/>
+                <ServicesContainer/>
             </div>
         </div>
     )

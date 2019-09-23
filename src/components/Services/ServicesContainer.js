@@ -1,5 +1,5 @@
 import React , {Component} from 'react'
-// import ServicesComp from './ServicesComp'
+import ServicesComp from './ServicesComp'
 
 class ServicesContainer extends Component {
     state = {
@@ -13,7 +13,7 @@ class ServicesContainer extends Component {
             this.setState({
                 data: json
             });
-            console.log(this.state.data)
+            console.log(this.state.data);
         } catch (e) {
             console.dir(e)
         }
