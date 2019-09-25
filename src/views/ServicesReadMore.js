@@ -7,6 +7,7 @@ const ServicesReadMore = (props) => {
             <h3 className="mb-4">{data.title}</h3>
             <img src={`${process.env.REACT_APP_API_URL}${data.image}`} alt=""/>
             <p className="mt-4">{data.description}</p>
+            <p className="mt-4">{data.text}</p>
         </div>
     )
 };

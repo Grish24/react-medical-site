@@ -1,6 +1,7 @@
 import React from 'react'
 import '../components/HomeGroup/HomeGroup.css'
 import about1 from '../assets/images/about1.jpg'
+import CareerContainer from '../components/Career/CareerContainer'
 
 const AboutUs = () => {
     return (
@@ -30,20 +31,7 @@ const AboutUs = () => {
                 </div>
                 <div className="col-lg-4 col-sm-6 px-lg-4">
                     <h3 className="border-b-1 pb-3 mb-3">OUR HISTORY</h3>
-                    <ul className="custom-ul">
-                        <li>
-                            <span>2010 &nbsp; -  </span>
-                            <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit.</span>
-                        </li>
-                        <li>
-                            <span>2010 &nbsp; -  </span>
-                            <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit.</span>
-                        </li>
-                        <li>
-                            <span>2010 &nbsp; -  </span>
-                            <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit.</span>
-                        </li>
-                    </ul>
+                    <CareerContainer />
                 </div>
                 <div className="col-lg-4 col-sm-6 services-links px-lg-4">
                     <h3 className="border-b-1 pb-3 mb-3">OUR SERVICES</h3>
