@@ -5,7 +5,8 @@ const Form = () => {
     const fields = {
         name: '',
         email: '',
-        mobileNumber: ''
+        mobileNumber: '',
+        subject: ''
     };
 
     const [info, setInfo] = useState({
@@ -35,6 +36,10 @@ const Form = () => {
             mobileNumber: {
                 validate: value => value.length >= 2,
                 error: 'Mobile Number is too short',
+            },
+            subject: {
+                validate: value => value.length >= 2,
+                error: 'Text is too short',
             }
         };
 
@@ -59,20 +64,20 @@ const Form = () => {
         <>
             <form className="form-style">
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlInput1">NAME</label>
-                    <input type="text" className="form-control rounded-0" id="exampleFormControlInput1" name="name"
+                    <label htmlFor="FormName">NAME</label>
+                    <input type="text" className="form-control rounded-0" id="FormName" name="name"
                            value={info.name} onChange={handleUserInput}/>
                     <p className='text-danger mt-1 mb-1'><small>{info.formErrors.name}</small></p>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlInput1">E-MAIL</label>
-                    <input type="email" className="form-control rounded-0" id="exampleFormControlInput1" name="email"
+                    <label htmlFor="FormEmail">E-MAIL</label>
+                    <input type="email" className="form-control rounded-0" id="FormEmail" name="email"
                            value={info.email} onChange={handleUserInput}/>
                     <p className='text-danger mt-1 mb-1'><small>{info.formErrors.email}</small></p>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="exampleFormControlInput1">MOBILE.NO</label>
-                    <input type="number" className="form-control rounded-0" id="exampleFormControlInput1"
+                    <label htmlFor="FormMobileNumber">MOBILE.NO</label>
+                    <input type="number" className="form-control rounded-0" id="FormMobileNumber"
                            name="mobileNumber" value={info.mobileNumber} onChange={handleUserInput}/>
                     <p className='text-danger mt-1 mb-1'><small>{info.formErrors.mobileNumber}</small></p>
 
@@ -81,9 +86,11 @@ const Form = () => {
                     <label htmlFor="exampleFormControlTextarea1">SUBJECT</label>
                     <textarea className="form-control rounded-0" id="exampleFormControlTextarea1" rows="3"
                               name="subject" value={info.subject} onChange={handleUserInput}/>
+                    <p className='text-danger mt-1 mb-1'><small>{info.formErrors.subject}</small></p>
+
                 </div>
 
-                <button type="button" className="btn btn-primary rounded-0 mt-4">Submit</button>
+                <button type="button" className="btn btn-primary rounded-0 mt-1">Submit</button>
             </form>
         </>
     )

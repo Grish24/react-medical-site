@@ -13,3 +13,6 @@
   min-height: 105px;
   margin-bottom: 0;
 }
+.form-style .form-group:last-of-type {
+  min-height: 146px;
+}
