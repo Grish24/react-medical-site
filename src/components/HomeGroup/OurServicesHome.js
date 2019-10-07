@@ -1,4 +1,6 @@
 import React from 'react'
+import ApiCallContainer from '../../layout/App/ApiCallContainer'
+import ServicesList from '../../components/Services/ServicesList'
 
 const OurServices = () => {
 
@@ -7,30 +9,8 @@ const OurServices = () => {
         <div className="container d-flex flex-column h-100 px-0 services-links">
             <h2 className="text-uppercase">OUR SERVICES</h2>
 
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
-            <p className="mb-0">
-                <a href="/">Lorem text dolor sit amet</a>
-            </p>
+            <ApiCallContainer componentForRender={ServicesList} apiPath="services"/>
+
 
             <button className="btn mt-auto">Read More</button>
 

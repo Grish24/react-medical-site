@@ -1,17 +1,13 @@
 import React from 'react'
 
-const AboutUsHome = () => {
+const AboutUsHome = ({data}) => {
     return (
         <div className="container d-flex flex-column h-100 px-0">
             <h2 className="text-uppercase">About Us</h2>
-                <p className="mb-0">Lorem ipsum dolor sit amet conse ctetur adipisicing elit,</p>
-                <p className="mb-1"><small>in voluptate Lorem ipsum, in voluptate velit esse cillum dolore eu fugiat amet conse ctetur adipisicing elit nulla pariatur.</small></p>
-                <p className="mb-0">Lorem ipsum dolor sit amet conse ctetur adipisicing elit,</p>
-                <p className="mb-1"><small>in voluptate Lorem ipsum, in voluptate velit esse cillum dolore eu fugiat amet conse ctetur adipisicing elit nulla pariatur.</small></p>
-                <p className="mb-0">Lorem ipsum dolor sit amet conse ctetur adipisicing elit,</p>
-                <p className="mb-1"><small>in voluptate Lorem ipsum, in voluptate velit esse cillum dolore eu fugiat amet conse ctetur adipisicing elit nulla pariatur.</small></p>
-                <p className="mb-0">Lorem ipsum dolor sit amet conse ctetur adipisicing elit,</p>
-                <p className="mb-1"><small>in voluptate Lorem ipsum, in voluptate velit esse cillum dolore eu fugiat amet conse ctetur adipisicing elit nulla pariatur.</small></p>
+
+            {
+                <p className="text-muted mb-1">{data.title}</p>
+            }
 
             <button className="btn mt-auto">Read More</button>
 

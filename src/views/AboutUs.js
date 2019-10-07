@@ -1,7 +1,9 @@
 import React from 'react'
 import '../components/HomeGroup/HomeGroup.css'
-import CareerContainer from '../components/Career/CareerContainer'
-import InfoContainer from '../components/Info/InfoContainer'
+import ApiCallContainer from '../layout/App/ApiCallContainer'
+import InfoComp from '../components/InfoComp'
+import CareerComp from '../components/CareerComp'
+import ServicesList from '../components/Services/ServicesList'
 
 const AboutUs = () => {
     return (
@@ -9,11 +11,11 @@ const AboutUs = () => {
             <div className="col-xl-9 mx-auto py-5">
             <div className="row">
                 <div className="col-lg-4 col-sm-6 px-lg-4">
-                    <InfoContainer />
+                    <ApiCallContainer componentForRender={InfoComp} apiPath="about"/>
                 </div>
                 <div className="col-lg-4 col-sm-6 px-lg-4">
                     <h3 className="border-b-1 pb-3 mb-3">OUR HISTORY</h3>
-                    <CareerContainer />
+                    <ApiCallContainer componentForRender={CareerComp} apiPath="career"/>
                 </div>
                 <div className="col-lg-4 col-sm-6 services-links px-lg-4">
                     <h3 className="border-b-1 pb-3 mb-3">OUR SERVICES</h3>
@@ -25,31 +27,7 @@ const AboutUs = () => {
                             sit amet eros.
                         </small>
                     </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-                    <p className="mb-0">
-                        <a href="/">Lorem text dolor sit amet</a>
-                    </p>
-
+                    <ApiCallContainer componentForRender={ServicesList} apiPath="services"/>
                 </div>
             </div>
 

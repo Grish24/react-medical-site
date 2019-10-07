@@ -1,13 +1,13 @@
 import React , {Component} from 'react'
-import InfoComp from './InfoComp'
 
-class InfoContainer extends Component {
+class ApiCallContainer extends Component {
     state = {
         data : []
     };
+
     async componentDidMount() {
         try {
-            const url = `${process.env.REACT_APP_API_URL}/api/about`;
+            const url = `${process.env.REACT_APP_API_URL}/api/${this.props.apiPath}`;
             const response = await fetch(url);
             const json = await response.json();
             this.setState({
@@ -18,10 +18,13 @@ class InfoContainer extends Component {
         }
     }
     render() {
+        const {
+            componentForRender : MyComponent,
+        } = this.props;
         return (
-            <InfoComp data={this.state.data}/>
+            <MyComponent data={this.state.data}/>
         )
     }
 }
 
-export default InfoContainer;
+export default ApiCallContainer;
