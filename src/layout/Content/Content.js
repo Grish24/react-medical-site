@@ -4,7 +4,7 @@ import {Route,Switch, Redirect} from 'react-router-dom'
 import AboutUs from '../../views/AboutUs'
 import OurServices from '../../views/Services'
 import Contact from '../../views/Contact'
-import './MainContent.css'
+import './Content.css'
 const MainContent = () => {
     return (
         <>
